@@ -56,3 +56,9 @@
 name = 'Yaroslav'
 count = len(name)
 print(f'Word {name} has {count} symbols!')
+
+
+
+name1 =input()
+count1 = len(name1)
+print(f'Word {name1} has {count1} symbols!')
