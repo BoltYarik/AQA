@@ -53,9 +53,9 @@
 # print(rrr[-1:-10:-2]) # якшо початок з кінця - кожний аргумент має -
 
 
-name = 'Yaroslav'
-count = len(name)
-print(f'Word {name} has {count} symbols!')
+# name = 'Yaroslav'
+# count = len(name)
+# print(f'Word {name} has {count} symbols!')
 
 
 
