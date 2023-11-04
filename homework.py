@@ -24,8 +24,6 @@ class Triangle(Figure):
 
 
 triangle = Triangle(3,3,3)
-triangle.get_perimeter()
-triangle.get_square()
 
 
 
@@ -46,5 +44,8 @@ class Round(Figure):
 
 
 round = Round(3)
-round.get_square()
-round.get_perimeter()
+
+figures = [triangle,round]
+for figure in figures:
+    figure.get_square()
+    figure.get_perimeter()
